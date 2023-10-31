@@ -1,10 +1,12 @@
-import Logo from "../assets/logo.png"
+import Logo from "../assets/logo.png";
 
-export const Header = () => {
+function Header() {
   return (
     <header>
-        <img src={Logo} alt="" />
-        <a href="/">Home</a>
+      <img src={Logo} alt="" />
+      <a href="/">Home</a>
     </header>
-  )
+  );
 }
+
+export default Header;
